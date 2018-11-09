@@ -21,7 +21,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @NotNull
 @Size(min = 1, max = 10)
 @Target({METHOD, FIELD})
-@Retention(RUNTIME)
+//-------------------pemier modif
 @Constraint(validatedBy = {})
 @Documented
 public @interface Login {
